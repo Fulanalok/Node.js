@@ -1,0 +1,6 @@
+npm link lodash 
+lodash precisa de arquivos para rodar
+
+pode instalar global mas nem todos funcionam, necessitam do require 
+
+npx fazem scripts direto ja

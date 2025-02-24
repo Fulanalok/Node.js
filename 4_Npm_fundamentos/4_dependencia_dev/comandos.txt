@@ -1,0 +1,5 @@
+comando para atualizar versao
+
+npx npm-check-updates -u
+
+npm install 

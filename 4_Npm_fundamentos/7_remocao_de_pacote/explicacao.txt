@@ -1,0 +1,1 @@
+eh so usar npm uninstall e o nome do pacote
