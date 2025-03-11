@@ -1,0 +1,17 @@
+<h1>Usuários cadastrados:</h1>
+<div class="container">
+  <div class="user-grid">
+    {{#each users}}
+      <div class="user-block">
+        <h2>{{this.name}}</h2>
+        <p>{{this.occupation}}</p>
+        <div class="actions">
+          <a href="/users/{{this.id}}" class="details-btn">Ver detalhes</a>
+           <a href="/users/edit/:id{{this.id}}" class="edit-btn">Editar</a>
+          <form action="/users/delete/{{this.id}}"  method="post">
+          <input type="submit" value="Excluir" class="delete-btn"> </form>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
