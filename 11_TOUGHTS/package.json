@@ -1,0 +1,26 @@
+{
+  "name": "11_toughts",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "cookie-session": "^2.1.0",
+    "express": "^4.21.2",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.13.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.6",
+    "session-file-store": "^1.5.0"
+  }
+}
